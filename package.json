@@ -32,5 +32,9 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
     "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "materialize-css": "^0.97.7"
   }
 }
