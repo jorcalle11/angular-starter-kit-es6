@@ -1,0 +1,8 @@
+<div class="collection">
+  <category-item
+    ng-repeat="category in $ctrl.categories"
+    category="category"
+    select-category="$ctrl.onCategorySelected(category)"
+    id-selected="$ctrl.idSelected">
+  </category-item>
+</div>

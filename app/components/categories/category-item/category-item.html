@@ -1,0 +1,7 @@
+<a 
+  class="collection-item pointer border-bottom"
+  ng-click="$ctrl.selectCategory({category:$ctrl.category})"
+  ng-class="{'active': $ctrl.category.id === $ctrl.idSelected}">
+  {{$ctrl.category.name}}
+  <span class="badge">{{$ctrl.category.id}}</span>
+</a>

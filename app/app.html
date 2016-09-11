@@ -1,7 +1,17 @@
 <nav-app></nav-app>
-<main class="container center-align">
-  <h3>Hola {{$ctrl.name}}! Bienvenido</h3>
-  <p>En esta sección van los componentes para tu aplicación, que esperas, comienza a codear!</p>
-  <input type="text" ng-model="$ctrl.name" placeholder="Escribe tu nombre...">
+<main>
+  <div class="container center-align">
+    <h3>Hola {{$ctrl.name}}! Bienvenido</h3>
+    <p>En esta sección van los componentes para tu aplicación, que esperas, comienza a codear!</p>
+    <input type="text" ng-model="$ctrl.name" placeholder="Escribe tu nombre...">
+  </div>
+  <section class="row">
+    <section class="col s12 m4 l3">
+      <categories></categories>
+    </section>
+    <section class="col s12 m8 l9">
+      <p>aqui va el resultado</p>
+    </section>
+  </section>
 </main>
 <footer-app></footer-app>
