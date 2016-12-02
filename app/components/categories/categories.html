@@ -1,8 +1,11 @@
+<div class="row">
+  <button class="btn waves-effect waves-light" ng-click="$ctrl.onCategorySelected(null)">Reset</button>
+</div>
 <div class="collection">
   <category-item
     ng-repeat="category in $ctrl.categories"
     category="category"
     select-category="$ctrl.onCategorySelected(category)"
-    id-selected="$ctrl.idSelected">
+    current-category="$ctrl.getCurrentCategory()">
   </category-item>
 </div>

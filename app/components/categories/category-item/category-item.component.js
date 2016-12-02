@@ -5,7 +5,7 @@ const categoryItemComponent = {
   bindings: {
     category: '<',
     selectCategory: '&',
-    idSelected: '<'
+    currentCategory: '<'
   },
   template
 }

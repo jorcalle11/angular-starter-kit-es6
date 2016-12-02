@@ -1,0 +1,8 @@
+<ul>
+  <li ng-repeat="bookmark in $ctrl.bookmarks | filter: {category: $ctrl.getCurrentCategory().name}">
+    <a ng-href="{{bookmark.url}}" target="_blank">
+      {{bookmark.name}}
+      <span class="badge">{{bookmark.category}}</span>
+    </a>
+  </li>
+</ul>

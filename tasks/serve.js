@@ -7,7 +7,7 @@ export const reload = () => serve.reload();
 export const server = () => {
   serve({
     port: process.env.PORT || 3000,
-    open: true,
+    open: false,
     server: { baseDir: paths.root }
   });
 };

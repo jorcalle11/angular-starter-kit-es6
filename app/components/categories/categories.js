@@ -1,6 +1,6 @@
 import angular from 'angular'
 import categoriesComponent from './categories.component'
-import categoryItemComponent from './category-item/category-item.component';
+import categoryItemComponent from './category-item/category-item.component'
 import categoriesService from './categories.service'
 
 const categoriesModule = angular
@@ -10,4 +10,4 @@ const categoriesModule = angular
   .service('CategoriesService',categoriesService)
   .name
 
-export default categoriesModule;
+export default categoriesModule
